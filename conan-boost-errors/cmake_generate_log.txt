@@ -1,0 +1,70 @@
+############ THIS WAS THE OUTPUT WHEN I RUN CMAKE USING   requires = "Boost/1.62.0@lasote/stable"
+
+
+
+1> Command line: C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\CMake\bin\cmake.exe  -G "Visual Studio 14 2015" -DCMAKE_INSTALL_PREFIX:PATH="C:\Users\jerry\CMakeBuild\0a46a78b-21b4-2238-97cd-f7ddae31527c\build\x86-Debug\install" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CONFIGURATION_TYPES="Debug" "C:\Users\jerry\git-c\cpp-issue-reports\conan-boost-errors"
+1> Working directory: C:\Users\jerry\CMakeBuild\0a46a78b-21b4-2238-97cd-f7ddae31527c\build\x86-Debug
+1> -- Downloading conan.cmake from https://github.com/memsharded/cmake-conan
+1> -- Conan ** WARNING** : This detection of settings from cmake is experimental and incomplete. Please check 'conan.cmake' and contribute
+1> -- Detected VS runtime: MDd
+1> -- Conan executing: conan install -f=C:/Users/jerry/git-c/cpp-issue-reports/conan-boost-errors/conanfile.py -g cmake -s build_type=Debug -s os=Windows -s compiler=Visual Studio -s compiler.version=14 -s arch=x86 -s compiler.runtime=MDd --build=missing
+1> Requirements
+1>     Boost/1.62.0@lasote/stable from conan-transit
+1>     zlib/1.2.8@lasote/stable from conan-transit
+1> Packages
+1>     Boost/1.62.0@lasote/stable:905af0349b2753e6dc59539d1317f5af5de9dba9
+1>     zlib/1.2.8@lasote/stable:a8aed829304fe5cc95659bc2d44fa1628511899a
+1> 
+1> zlib/1.2.8@lasote/stable: Already installed!
+1> Boost/1.62.0@lasote/stable: Already installed!
+1> PROJECT: Generator cmake created conanbuildinfo.cmake
+1> PROJECT: Generated conaninfo.txt
+1> -- Conan: Loading conanbuildinfo.cmake
+1> -- Current conanbuildinfo.cmake directory: C:/Users/jerry/CMakeBuild/0a46a78b-21b4-2238-97cd-f7ddae31527c/build/x86-Debug
+1> -- WARN: CONAN_COMPILER variable not set, please make sure yourself that your compiler and version matches your declared settings
+1> -- Conan: Using cmake targets configuration
+1> -- Library libboost_wave-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_wave-vc140-mt-gd-1_62.lib
+1> -- Library libboost_unit_test_framework-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_unit_test_framework-vc140-mt-gd-1_62.lib
+1> -- Library libboost_prg_exec_monitor-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_prg_exec_monitor-vc140-mt-gd-1_62.lib
+1> -- Library libboost_container-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_container-vc140-mt-gd-1_62.lib
+1> -- Library libboost_graph-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_graph-vc140-mt-gd-1_62.lib
+1> -- Library libboost_iostreams-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_iostreams-vc140-mt-gd-1_62.lib
+1> -- Library libboost_locale-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_locale-vc140-mt-gd-1_62.lib
+1> -- Library libboost_log-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_log-vc140-mt-gd-1_62.lib
+1> -- Library libboost_log_setup-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_log_setup-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_c99-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_c99-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_c99f-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_c99f-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_c99l-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_c99l-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_tr1-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_tr1-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_tr1f-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_tr1f-vc140-mt-gd-1_62.lib
+1> -- Library libboost_math_tr1l-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_math_tr1l-vc140-mt-gd-1_62.lib
+1> -- Library libboost_program_options-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_program_options-vc140-mt-gd-1_62.lib
+1> -- Library libboost_random-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_random-vc140-mt-gd-1_62.lib
+1> -- Library libboost_regex-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_regex-vc140-mt-gd-1_62.lib
+1> -- Library libboost_wserialization-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_wserialization-vc140-mt-gd-1_62.lib
+1> -- Library libboost_serialization-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_serialization-vc140-mt-gd-1_62.lib
+1> -- Library libboost_signals-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_signals-vc140-mt-gd-1_62.lib
+1> -- Library libboost_coroutine-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_coroutine-vc140-mt-gd-1_62.lib
+1> -- Library libboost_context-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_context-vc140-mt-gd-1_62.lib
+1> -- Library libboost_timer-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_timer-vc140-mt-gd-1_62.lib
+1> -- Library libboost_thread-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_thread-vc140-mt-gd-1_62.lib
+1> -- Library libboost_chrono-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_chrono-vc140-mt-gd-1_62.lib
+1> -- Library libboost_date_time-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_date_time-vc140-mt-gd-1_62.lib
+1> -- Library libboost_atomic-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_atomic-vc140-mt-gd-1_62.lib
+1> -- Library libboost_filesystem-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_filesystem-vc140-mt-gd-1_62.lib
+1> -- Library libboost_system-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_system-vc140-mt-gd-1_62.lib
+1> -- Library libboost_exception-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_exception-vc140-mt-gd-1_62.lib
+1> -- Library libboost_test_exec_monitor-vc140-mt-gd-1_62 found C:/.conan/xvepetoz/1/lib/libboost_test_exec_monitor-vc140-mt-gd-1_62.lib
+1> -- Library zlibstaticd found C:/Users/jerry/.conan/data/zlib/1.2.8/lasote/stable/package/a8aed829304fe5cc95659bc2d44fa1628511899a/lib/zlibstaticd.lib
+1> -- Configuring done
+1> -- Generating done
+1> -- Build files have been written to: C:/Users/jerry/CMakeBuild/0a46a78b-21b4-2238-97cd-f7ddae31527c/build/x86-Debug
+1> Starting CMake target info extraction ...
+1> CMake server connection made.
+1> Extracted includes paths.
+1> Extracted CMake variables.
+1> Extracted source files and headers.
+1> Extracted global settings.
+1> Extracted code model.
+1> Collating data ...
+1> Target info extraction done.
