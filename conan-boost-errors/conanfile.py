@@ -8,8 +8,7 @@ class AgentServiceLibConan(ConanFile):
   author = "AppAnywhere"
   generators = "cmake"
   url = "https://github.com/AppAnywhere/agent-service-lib"
-  requires = "Boost/1.62.0@lasote/stable", \
-		#"Boost/1.64.0@bincrafters/testing", \
+  requires = "Boost/1.64.0@bincrafters/testing"
 
   def configure(self):
     self.options["Boost"].shared = False
